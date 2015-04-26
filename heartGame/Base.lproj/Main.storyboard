@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="zvG-ca-Mkv">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -65,31 +66,78 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tinter.png" translatesAutoresizingMaskIntoConstraints="NO" id="2Nk-ho-hnV">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="94" id="5n9-MB-Pnq"/>
+                                    <constraint firstAttribute="height" constant="94" id="OhU-bM-AUi"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="5n9-MB-Pnq"/>
+                                        <exclude reference="OhU-bM-AUi"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="5n9-MB-Pnq"/>
+                                        <include reference="OhU-bM-AUi"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Untitled-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Cpm-DW-NAg">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <color key="tintColor" red="1" green="0.72934117284531075" blue="0.67661672594368882" alpha="0.14000000000000001" colorSpace="calibratedRGB"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="100" y="182" width="201" height="302"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="302" id="8DY-nI-71v"/>
+                                    <constraint firstAttribute="width" constant="201" id="V8G-SN-xKy"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="8DY-nI-71v"/>
+                                        <exclude reference="V8G-SN-xKy"/>
+                                    </mask>
                                 </variation>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tinter.png" translatesAutoresizingMaskIntoConstraints="NO" id="2Nk-ho-hnV">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="290" y="20" width="94" height="94"/>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="8DY-nI-71v"/>
+                                        <include reference="V8G-SN-xKy"/>
+                                    </mask>
                                 </variation>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2Nk-ho-hnV" firstAttribute="trailing" secondItem="9iM-HW-w8m" secondAttribute="trailingMargin" id="4ye-7I-P9j"/>
+                            <constraint firstItem="2Nk-ho-hnV" firstAttribute="top" secondItem="h5R-sr-XfJ" secondAttribute="bottom" id="65d-ky-AA6"/>
+                            <constraint firstItem="Cpm-DW-NAg" firstAttribute="leading" secondItem="9iM-HW-w8m" secondAttribute="leadingMargin" constant="84" id="Fov-Oe-GiG"/>
+                            <constraint firstAttribute="centerX" secondItem="Cpm-DW-NAg" secondAttribute="centerX" constant="-0.5" id="d1H-Nf-5Q5"/>
+                            <constraint firstItem="Cpm-DW-NAg" firstAttribute="top" secondItem="h5R-sr-XfJ" secondAttribute="bottom" constant="162" id="wEc-Be-8e6"/>
+                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="Cpm-DW-NAg"/>
                                 <exclude reference="2Nk-ho-hnV"/>
+                                <exclude reference="Cpm-DW-NAg"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="Fov-Oe-GiG"/>
+                                <exclude reference="d1H-Nf-5Q5"/>
+                                <exclude reference="wEc-Be-8e6"/>
+                                <exclude reference="4ye-7I-P9j"/>
+                                <exclude reference="65d-ky-AA6"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
-                                <include reference="Cpm-DW-NAg"/>
                                 <include reference="2Nk-ho-hnV"/>
+                                <include reference="Cpm-DW-NAg"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="Fov-Oe-GiG"/>
+                                <include reference="d1H-Nf-5Q5"/>
+                                <include reference="wEc-Be-8e6"/>
+                                <include reference="4ye-7I-P9j"/>
+                                <include reference="65d-ky-AA6"/>
                             </mask>
                         </variation>
                     </view>

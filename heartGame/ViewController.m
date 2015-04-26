@@ -17,6 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self tintHeart];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -28,8 +29,8 @@
 
 -(void) tintHeart
 {
-    theImageView.image = [theImageView.image imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
-    [theImageView setTintColor:[UIColor redColor]];
+    _heart.image = [_heart.image imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
+    [_heart setTintColor:[UIColor redColor]];
 }
 
 @end
