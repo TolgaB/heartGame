@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A1E4EA31AED798200FD906B /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A1E4EA21AED798200FD906B /* heart.png */; };
+		0A1E4EA51AED79B400FD906B /* Untitled-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A1E4EA41AED79B400FD906B /* Untitled-2.png */; };
+		0A1E4EA71AED7A2700FD906B /* tinter.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A1E4EA61AED7A2700FD906B /* tinter.png */; };
 		FDFC837A1AED6A00005F8CBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC83791AED6A00005F8CBE /* main.m */; };
 		FDFC837D1AED6A00005F8CBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC837C1AED6A00005F8CBE /* AppDelegate.m */; };
 		FDFC83801AED6A00005F8CBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC837F1AED6A00005F8CBE /* ViewController.m */; };
@@ -27,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A1E4EA21AED798200FD906B /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
+		0A1E4EA41AED79B400FD906B /* Untitled-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled-2.png"; sourceTree = "<group>"; };
+		0A1E4EA61AED7A2700FD906B /* tinter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tinter.png; sourceTree = "<group>"; };
 		FDFC83741AED6A00005F8CBE /* heartGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = heartGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDFC83781AED6A00005F8CBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDFC83791AED6A00005F8CBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -86,8 +92,11 @@
 				FDFC837E1AED6A00005F8CBE /* ViewController.h */,
 				FDFC837F1AED6A00005F8CBE /* ViewController.m */,
 				FDFC83811AED6A00005F8CBE /* Main.storyboard */,
+				0A1E4EA41AED79B400FD906B /* Untitled-2.png */,
+				0A1E4EA61AED7A2700FD906B /* tinter.png */,
 				FDFC83841AED6A00005F8CBE /* Images.xcassets */,
 				FDFC83861AED6A00005F8CBE /* LaunchScreen.xib */,
+				0A1E4EA21AED798200FD906B /* heart.png */,
 				FDFC83771AED6A00005F8CBE /* Supporting Files */,
 			);
 			path = heartGame;
@@ -199,9 +208,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A1E4EA31AED798200FD906B /* heart.png in Resources */,
+				0A1E4EA51AED79B400FD906B /* Untitled-2.png in Resources */,
 				FDFC83831AED6A00005F8CBE /* Main.storyboard in Resources */,
 				FDFC83881AED6A00005F8CBE /* LaunchScreen.xib in Resources */,
 				FDFC83851AED6A00005F8CBE /* Images.xcassets in Resources */,
+				0A1E4EA71AED7A2700FD906B /* tinter.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +430,7 @@
 				FDFC83991AED6A00005F8CBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FDFC839A1AED6A00005F8CBE /* Build configuration list for PBXNativeTarget "heartGameTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +439,7 @@
 				FDFC839C1AED6A00005F8CBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

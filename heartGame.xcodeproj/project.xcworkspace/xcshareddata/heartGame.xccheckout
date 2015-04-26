@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A7F3D582-816A-4E91-B247-84C5DBD74DCF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>heartGame</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F12CFC6DBC0A573AA6E5ED9E2F71E69D8124DB62</key>
+		<string>https://github.com/TolgaB/heartGame.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>heartGame.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F12CFC6DBC0A573AA6E5ED9E2F71E69D8124DB62</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/TolgaB/heartGame.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F12CFC6DBC0A573AA6E5ED9E2F71E69D8124DB62</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F12CFC6DBC0A573AA6E5ED9E2F71E69D8124DB62</string>
+			<key>IDESourceControlWCCName</key>
+			<string>heartGame</string>
+		</dict>
+	</array>
+</dict>
+</plist>
