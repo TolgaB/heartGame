@@ -67,6 +67,7 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Untitled-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Cpm-DW-NAg">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="tintColor" red="1" green="0.72934117284531075" blue="0.67661672594368882" alpha="0.14000000000000001" colorSpace="calibratedRGB"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="100" y="182" width="201" height="302"/>
                                 </variation>
@@ -92,6 +93,9 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="heart" destination="Cpm-DW-NAg" id="I5A-ff-wHQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Rq-t8-u6B" sceneMemberID="firstResponder"/>
             </objects>
