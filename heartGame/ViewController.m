@@ -7,9 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "ColorChangingImageView.h"
 
 @interface ViewController ()
-@property (strong, nonatomic) IBOutlet UIImageView *heart;
+
+@property (strong, nonatomic) IBOutlet UIView *viewthing;
 
 @end
 
@@ -29,21 +31,11 @@
 
 -(void) tintHeart
 {
-    _heart.image = [_heart.image imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
-    [_heart setTintColor:[UIColor redColor]];
+    ColorChangingImageView *iv = [[ColorChangingImageView alloc] initWithFrame:_viewthing.bounds];
+    [iv setBackgroundColor:[UIColor redColor]]; // might not need this, not sure.
+    [iv setImage:[UIImage imageNamed:@"Untitled-2.png"]];
+    [iv setColorToChangeInto:[UIColor blueColor]];
 }
 
-- (NSImage *)imageTintedWithColor:(NSColor *)tint
-{
-    NSImage *image = [self copy];
-    if (tint) {
-        [image lockFocus];
-        [tint set];
-        NSRect imageRect = {NSZeroPoint, [image size]};
-        NSRectFillUsingOperation(imageRect, NSCompositeSourceAtop);
-        [image unlockFocus];
-    }
-    return image;
-}
 
 @end

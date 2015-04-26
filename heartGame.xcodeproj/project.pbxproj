@@ -10,6 +10,8 @@
 		0A1E4EA31AED798200FD906B /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A1E4EA21AED798200FD906B /* heart.png */; };
 		0A1E4EA51AED79B400FD906B /* Untitled-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A1E4EA41AED79B400FD906B /* Untitled-2.png */; };
 		0A1E4EA71AED7A2700FD906B /* tinter.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A1E4EA61AED7A2700FD906B /* tinter.png */; };
+		0A1E4EA91AED7D4A00FD906B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A1E4EA81AED7D4A00FD906B /* QuartzCore.framework */; };
+		0A1E4EB41AED7F0400FD906B /* ColorChangingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1E4EB31AED7F0400FD906B /* ColorChangingImageView.m */; };
 		FDFC837A1AED6A00005F8CBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC83791AED6A00005F8CBE /* main.m */; };
 		FDFC837D1AED6A00005F8CBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC837C1AED6A00005F8CBE /* AppDelegate.m */; };
 		FDFC83801AED6A00005F8CBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC837F1AED6A00005F8CBE /* ViewController.m */; };
@@ -33,6 +35,9 @@
 		0A1E4EA21AED798200FD906B /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
 		0A1E4EA41AED79B400FD906B /* Untitled-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled-2.png"; sourceTree = "<group>"; };
 		0A1E4EA61AED7A2700FD906B /* tinter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tinter.png; sourceTree = "<group>"; };
+		0A1E4EA81AED7D4A00FD906B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0A1E4EB21AED7F0400FD906B /* ColorChangingImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorChangingImageView.h; path = ../ColorChangingImageView.h; sourceTree = "<group>"; };
+		0A1E4EB31AED7F0400FD906B /* ColorChangingImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorChangingImageView.m; path = ../ColorChangingImageView.m; sourceTree = "<group>"; };
 		FDFC83741AED6A00005F8CBE /* heartGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = heartGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDFC83781AED6A00005F8CBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDFC83791AED6A00005F8CBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -53,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A1E4EA91AED7D4A00FD906B /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +75,7 @@
 		FDFC836B1AED6A00005F8CBE = {
 			isa = PBXGroup;
 			children = (
+				0A1E4EA81AED7D4A00FD906B /* QuartzCore.framework */,
 				FDFC83761AED6A00005F8CBE /* heartGame */,
 				FDFC83901AED6A00005F8CBE /* heartGameTests */,
 				FDFC83751AED6A00005F8CBE /* Products */,
@@ -89,6 +96,8 @@
 			children = (
 				FDFC837B1AED6A00005F8CBE /* AppDelegate.h */,
 				FDFC837C1AED6A00005F8CBE /* AppDelegate.m */,
+				0A1E4EB21AED7F0400FD906B /* ColorChangingImageView.h */,
+				0A1E4EB31AED7F0400FD906B /* ColorChangingImageView.m */,
 				FDFC837E1AED6A00005F8CBE /* ViewController.h */,
 				FDFC837F1AED6A00005F8CBE /* ViewController.m */,
 				FDFC83811AED6A00005F8CBE /* Main.storyboard */,
@@ -233,6 +242,7 @@
 			files = (
 				FDFC83801AED6A00005F8CBE /* ViewController.m in Sources */,
 				FDFC837D1AED6A00005F8CBE /* AppDelegate.m in Sources */,
+				0A1E4EB41AED7F0400FD906B /* ColorChangingImageView.m in Sources */,
 				FDFC837A1AED6A00005F8CBE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
