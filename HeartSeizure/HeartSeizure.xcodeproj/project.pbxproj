@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDE19C771B643154001F8378 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE19C761B643154001F8378 /* main.m */; };
+		FDE19C7A1B643154001F8378 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE19C791B643154001F8378 /* AppDelegate.m */; };
+		FDE19C7D1B643154001F8378 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE19C7C1B643154001F8378 /* ViewController.m */; };
+		FDE19C801B643154001F8378 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDE19C7E1B643154001F8378 /* Main.storyboard */; };
+		FDE19C821B643154001F8378 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDE19C811B643154001F8378 /* Images.xcassets */; };
+		FDE19C851B643154001F8378 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDE19C831B643154001F8378 /* LaunchScreen.xib */; };
+		FDE19C911B643154001F8378 /* HeartSeizureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE19C901B643154001F8378 /* HeartSeizureTests.m */; };
+		FDE19C9C1B643193001F8378 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE19C9B1B643193001F8378 /* GameViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDE19C8B1B643154001F8378 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDE19C691B643154001F8378 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDE19C701B643154001F8378;
+			remoteInfo = HeartSeizure;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDE19C711B643154001F8378 /* HeartSeizure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartSeizure.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE19C751B643154001F8378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDE19C761B643154001F8378 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDE19C781B643154001F8378 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDE19C791B643154001F8378 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDE19C7B1B643154001F8378 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FDE19C7C1B643154001F8378 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FDE19C7F1B643154001F8378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDE19C811B643154001F8378 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FDE19C841B643154001F8378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FDE19C8A1B643154001F8378 /* HeartSeizureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartSeizureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE19C8F1B643154001F8378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDE19C901B643154001F8378 /* HeartSeizureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeartSeizureTests.m; sourceTree = "<group>"; };
+		FDE19C9A1B643193001F8378 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		FDE19C9B1B643193001F8378 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDE19C6E1B643154001F8378 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE19C871B643154001F8378 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDE19C681B643154001F8378 = {
+			isa = PBXGroup;
+			children = (
+				FDE19C731B643154001F8378 /* HeartSeizure */,
+				FDE19C8D1B643154001F8378 /* HeartSeizureTests */,
+				FDE19C721B643154001F8378 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDE19C721B643154001F8378 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDE19C711B643154001F8378 /* HeartSeizure.app */,
+				FDE19C8A1B643154001F8378 /* HeartSeizureTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDE19C731B643154001F8378 /* HeartSeizure */ = {
+			isa = PBXGroup;
+			children = (
+				FDE19C781B643154001F8378 /* AppDelegate.h */,
+				FDE19C791B643154001F8378 /* AppDelegate.m */,
+				FDE19C7B1B643154001F8378 /* ViewController.h */,
+				FDE19C7C1B643154001F8378 /* ViewController.m */,
+				FDE19C7E1B643154001F8378 /* Main.storyboard */,
+				FDE19C9A1B643193001F8378 /* GameViewController.h */,
+				FDE19C9B1B643193001F8378 /* GameViewController.m */,
+				FDE19C811B643154001F8378 /* Images.xcassets */,
+				FDE19C831B643154001F8378 /* LaunchScreen.xib */,
+				FDE19C741B643154001F8378 /* Supporting Files */,
+			);
+			path = HeartSeizure;
+			sourceTree = "<group>";
+		};
+		FDE19C741B643154001F8378 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDE19C751B643154001F8378 /* Info.plist */,
+				FDE19C761B643154001F8378 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDE19C8D1B643154001F8378 /* HeartSeizureTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDE19C901B643154001F8378 /* HeartSeizureTests.m */,
+				FDE19C8E1B643154001F8378 /* Supporting Files */,
+			);
+			path = HeartSeizureTests;
+			sourceTree = "<group>";
+		};
+		FDE19C8E1B643154001F8378 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDE19C8F1B643154001F8378 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDE19C701B643154001F8378 /* HeartSeizure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDE19C941B643154001F8378 /* Build configuration list for PBXNativeTarget "HeartSeizure" */;
+			buildPhases = (
+				FDE19C6D1B643154001F8378 /* Sources */,
+				FDE19C6E1B643154001F8378 /* Frameworks */,
+				FDE19C6F1B643154001F8378 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeartSeizure;
+			productName = HeartSeizure;
+			productReference = FDE19C711B643154001F8378 /* HeartSeizure.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDE19C891B643154001F8378 /* HeartSeizureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDE19C971B643154001F8378 /* Build configuration list for PBXNativeTarget "HeartSeizureTests" */;
+			buildPhases = (
+				FDE19C861B643154001F8378 /* Sources */,
+				FDE19C871B643154001F8378 /* Frameworks */,
+				FDE19C881B643154001F8378 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDE19C8C1B643154001F8378 /* PBXTargetDependency */,
+			);
+			name = HeartSeizureTests;
+			productName = HeartSeizureTests;
+			productReference = FDE19C8A1B643154001F8378 /* HeartSeizureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDE19C691B643154001F8378 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Tolga Beser";
+				TargetAttributes = {
+					FDE19C701B643154001F8378 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					FDE19C891B643154001F8378 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = FDE19C701B643154001F8378;
+					};
+				};
+			};
+			buildConfigurationList = FDE19C6C1B643154001F8378 /* Build configuration list for PBXProject "HeartSeizure" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDE19C681B643154001F8378;
+			productRefGroup = FDE19C721B643154001F8378 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDE19C701B643154001F8378 /* HeartSeizure */,
+				FDE19C891B643154001F8378 /* HeartSeizureTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDE19C6F1B643154001F8378 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE19C801B643154001F8378 /* Main.storyboard in Resources */,
+				FDE19C851B643154001F8378 /* LaunchScreen.xib in Resources */,
+				FDE19C821B643154001F8378 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE19C881B643154001F8378 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDE19C6D1B643154001F8378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE19C9C1B643193001F8378 /* GameViewController.m in Sources */,
+				FDE19C7D1B643154001F8378 /* ViewController.m in Sources */,
+				FDE19C7A1B643154001F8378 /* AppDelegate.m in Sources */,
+				FDE19C771B643154001F8378 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE19C861B643154001F8378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE19C911B643154001F8378 /* HeartSeizureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDE19C8C1B643154001F8378 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDE19C701B643154001F8378 /* HeartSeizure */;
+			targetProxy = FDE19C8B1B643154001F8378 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDE19C7E1B643154001F8378 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDE19C7F1B643154001F8378 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDE19C831B643154001F8378 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDE19C841B643154001F8378 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDE19C921B643154001F8378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDE19C931B643154001F8378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDE19C951B643154001F8378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HeartSeizure/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FDE19C961B643154001F8378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HeartSeizure/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FDE19C981B643154001F8378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HeartSeizureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeartSeizure.app/HeartSeizure";
+			};
+			name = Debug;
+		};
+		FDE19C991B643154001F8378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HeartSeizureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeartSeizure.app/HeartSeizure";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDE19C6C1B643154001F8378 /* Build configuration list for PBXProject "HeartSeizure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE19C921B643154001F8378 /* Debug */,
+				FDE19C931B643154001F8378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDE19C941B643154001F8378 /* Build configuration list for PBXNativeTarget "HeartSeizure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE19C951B643154001F8378 /* Debug */,
+				FDE19C961B643154001F8378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FDE19C971B643154001F8378 /* Build configuration list for PBXNativeTarget "HeartSeizureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE19C981B643154001F8378 /* Debug */,
+				FDE19C991B643154001F8378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDE19C691B643154001F8378 /* Project object */;
+}

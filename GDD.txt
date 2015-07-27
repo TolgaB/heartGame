@@ -1,0 +1,11 @@
+--Heart Seizure
+	-Main Screen
+		-The homescreen
+		-Play Button
+		-Settings
+			-TBD
+	-Game Screen
+		-Starts off easy colors at top of screen
+		-Heart flashes random colors
+		-To get points touch heart when its at the color at the top of the screen
+		-As it goes on there will be more colors		
